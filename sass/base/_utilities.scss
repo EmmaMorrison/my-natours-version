@@ -1,0 +1,41 @@
+.u-centre-text {text-align: center;}
+
+.u-margin-top-sml {
+  margin-top: 4rem;
+
+  @include respond(tab-port) {
+    margin-top: 2.5rem;
+  }
+}
+
+.u-margin-top-lrg {
+  margin-top: 10rem;
+
+  @include respond(tab-port) {
+    margin-top: 7rem;
+  }
+}
+
+.u-margin-bottom-sml {
+  margin-bottom: 1.5rem;
+
+  @include respond(tab-port) {
+    margin-bottom: .5rem;
+  }
+}
+
+.u-margin-bottom-med {
+  margin-bottom: 4rem;
+
+  @include respond(tab-port) {
+    margin-bottom: 3rem;
+  }
+}
+
+.u-margin-bottom-lrg {
+  margin-bottom: 8rem;
+
+  @include respond(tab-port) {
+    margin-bottom: 5rem;
+  }
+}
